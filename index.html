@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Toby Ecommerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Ecommerce.css">
+   
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    </head>
+<div style="height:40px" class="bg-dark text-light">
+<div style="padding-top:8px;" class="d-flex justify-content-around">
+    <div>
+        <i class="fa fa-envelope mx-2"></i>
+<a  class="text-white text-decoration-none" href="">bellolateefatoluwatobiloba@gmail.com</a>
+<i class="fa fa-phone mx-2"></i>
+<a  class="text-white text-decoration-none" href="">08050261734</a>
+    </div>
+    <div>
+        <a class="text-light" href=""><i class="fab fa-facebook"></i></a>
+        <a class="text-light" href=""><i class="fab fa-instagram "></i></a>
+        <a class="text-light" href=""><i class="fab fa-twitter"></i></a>
+        <a class="text-light" href=""><i class="fab fa-linkedin"></i></a>
+    </div>
+</div>
+</div>
+<body>
+       <!-- Header -->
+       <nav class="navbar navbar-expand-lg navbar-light shadow ">
+        <div class="container">
+            <a id="logo" class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+             Toby
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+ <div class="align-self-center collapse navbar-collapse">
+                
+                    <ul class="nav navbar-nav  mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+         
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#Search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <a class="nav-icon position-relative" href="#">
+                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">3</span>
+                    </a>
+                    <a class="nav-icon position-relative" href="#">
+                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+     <!-- Modal -->
+    
+     <div class="modal fade bg-white" id="Search">
+
+        <div style="height:40px" class="bg-dark text-light">
+            <div style="padding-top:8px;" class="d-flex justify-content-around">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+            <a  class="text-white text-decoration-none" href="">bellolateefatoluwatobiloba@gmail.com</a>
+            <i class="fa fa-phone mx-2"></i>
+            <a  class="text-white text-decoration-none" href="">08050261734</a>
+                </div>
+                <div>
+                    <a class="text-light" href=""><i class="fab fa-facebook"></i></a>
+                    <a class="text-light" href=""><i class="fab fa-instagram "></i></a>
+                    <a class="text-light" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="text-light" href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            </div>
+        <div class="modal-dialog modal-lg">
+            <!---- <div class="modal-content">--not neccessary-->
+            <div class=" pt-1 mb-5">
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+        <!-- Start Banner Hero -->
+      
+        <h1 style="line-height:1.5;" class=" display-3 text-center">Categories of The Month</h1>
+        <p class="text-center">
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+        </p><div class="container" >
+        <div class="row">
+            <div class="col-xl-4">
+                <img style="width:250px;" src="./assets/img/category_img_01.jpg" class="rounded-circle img-fluid border mt-5">
+                <h4 style="margin-left:80px; margin-top: 10px;">Watches</h3>
+                <button style="margin-left:80px;margin-top: 10px;" class="btn btn-success">Go Shop</button>
+            </div>
+
+            <div class="col-xl-4">
+                <img style="width:250px;"  src="./assets/img/category_img_02.jpg" class="rounded-circle img-fluid border mt-5">
+                <h4 style="margin-left:80px; margin-top: 10px;">Shoes</h3>
+                <button style="margin-left:80px;margin-top: 10px;" class="btn btn-success">Go Shop</button>
+            </div>
+            <div class="col-xl-4">
+                <img style="width:250px;"  src="./assets/img/category_img_03.jpg" class="rounded-circle img-fluid border mt-5">
+                <h4 style="margin-left:60px; margin-top: 10px;">Accessories</h3>
+                <button style="margin-left:80px;margin-top: 10px;" class="btn btn-success">Go Shop</button>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br> <br> <br> <br>
+    <div class="container bg-light">
+    <h1 style="line-height:1.5;" class=" display-3 text-center">Categories of The Month</h1>
+    <p class="text-center">
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.
+    </p>
+<div class="container bg-light">
+    <div class="row">
+        <div class="col-xl-4">
+            <div class="card">
+                <img class="card-img-top" src="./assets/img/feature_prod_01.jpg" alt="Card image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="text-warning fa fa-star"></i>
+                            <i class="text-warning fa fa-star"></i>
+                            <i class="text-warning fa fa-star"></i>
+                            <i class="text-muted fa fa-star"></i>
+                            <i class="text-muted fa fa-star"></i>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="text-muted text-right list-unstyled">$240.00</li>
+                    </ul>
+                    </div>
+                    </div>
+                  <h4 class="card-title display-6 ">Gym Weight</h4>
+                  <p class="card-text "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.
+                </p>
+                <p class="text-muted">Reviews (24)</p>
+              
+                </div>
+              </div>
+        </div>
+        
+        <div class="col-xl-4">
+            <div class="card">
+                <img class="card-img-top" src="./assets/img/feature_prod_02.jpg"  alt="Card image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="text-warning fa fa-star"></i>
+                            <i class="text-warning fa fa-star"></i>
+                            <i class="text-warning fa fa-star"></i>
+                            <i class="text-warning fa fa-star"></i>
+                            <i class="text-warning fa fa-star"></i>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="text-muted text-right list-unstyled">$480.00</li>
+                    </ul>
+                    </div>
+                    </div>
+                  <h4 class="card-title display-6 ">Smart Watch</h4>
+                  <p class="card-text ">  Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.
+                </p>
+                <p class="text-muted">Reviews (48)</p>
+              
+                </div>
+              </div>
+        </div>
+        
+        <div class="col-xl-4">
+            <div class="card">
+                <img class="card-img-top" src="./assets/img/feature_prod_03.jpg" alt="Card image">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="text-warning fa fa-star"></i>
+                            <i class="text-warning fa fa-star"></i>
+                            <i class="text-warning fa fa-star"></i>
+                            <i class="text-muted fa fa-star"></i>
+                            <i class="text-muted fa fa-star"></i>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="text-muted text-right list-unstyled">$360.00</li>
+                    </ul>
+                    </div>
+                    </div>
+                  <h4 class="card-title display-6 ">Polariod Camera</h4>
+                  <p class="card-text ">  Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam,obortis nec.
+                </p>
+                <p class="text-muted">Reviews (74)</p>
+              
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+     <br> <br> <br> <br> 
+     
+     <footer class="bg-dark" >
+        <div class="container">
+            <div class="row">
+
+<div class="col-xl-4 pt-5">
+<h2 class="h2 text-success border-bottom pb-3 border-light logo">Toby Shop</h2>
+<ul style="line-height:2.0;" class="list-unstyled text-light">
+    <li>
+        <i class="fas fa-map-marker-alt fa-fw"></i>
+     Osogbo, Osun state , Nigeria
+    </li>
+    <li>
+        <i class="fa fa-phone fa-fw   "></i>
+        <a class="text-decoration-none text-light" href="tel:080-5026-1734">080-5026-1734</a>
+    </li>
+    <li>
+        <i class="fa fa-envelope fa- "></i>
+        <a class="text-decoration-none text-light" href="bellolateefatoluwatobiloba@gmail.com">bellolateefatoluwatobiloba@gmail.com</a>
+    </li>
+</ul>
+</div>
+<div class="col-xl-4 pt-5">
+
+
+    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
+    <ul style="line-height:2.0;" class="list-unstyled text-light">
+        <li><a class="text-decoration-none text-light" href="#">Luxury</a></li>
+        <li><a class="text-decoration-none text-light" href="#">Sport Wear</a></li>
+        <li><a class="text-decoration-none text-light" href="#">Men's Shoes</a></li>
+        <li><a class="text-decoration-none text-light" href="#">Women's Shoes</a></li>
+        <li><a class="text-decoration-none text-light" href="#">Popular Dress</a></li>
+        <li><a class="text-decoration-none text-light" href="#">Gym Accessories</a></li>
+        <li><a class="text-decoration-none text-light" href="#">Sport Shoes</a></li>
+    </ul>
+</div>
+<div class="col-xl-4 pt-5">
+<h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+<ul style="line-height:2.0;" class="list-unstyled text-light">
+    <li><a class="text-decoration-none text-light" href="#">Home</a></li>
+    <li><a class="text-decoration-none text-light" href="#">About Us</a></li>
+    <li><a class="text-decoration-none text-light" href="#">Shop Locations</a></li>
+    <li><a class="text-decoration-none text-light" href="#">FAQs</a></li>
+    <li><a class="text-decoration-none text-light" href="#">Contact</a></li>
+</ul>
+</div>
+</div>
+
+
+
+
+                </div>
+                </div>
+                <div class="w-100 my-3 border-top border-light">
+                    <div class="container">
+<div class="row">
+    <div class="col-xl-6 mt-4">
+        <a class="text-light" href=""><i class="fab fa-facebook"></i></a>
+        <a class="text-light" href=""><i class="fab fa-instagram "></i></a>
+        <a class="text-light" href=""><i class="fab fa-twitter"></i></a>
+        <a class="text-light" href=""><i class="fab fa-linkedin"></i></a>
+    </div>
+    <div class="col-xl-6">
+        <label for="subscribeEmail">Email address</label>
+        <div class="input-group mb-2">
+            <input type="email" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+            <div class="input-group-text btn-success text-light">Subscribe</div>
+        </div>
+    </div>
+</div>
+            
+                </div>
+                </div>
+                <div class="w-100 bg-success py-3">
+                    <div class="container">
+                        <div class="row pt-2">
+                            <div class="col-12">
+                                <p class="text-left text-light">
+                                    Copyright &copy; 2022 Toby Shop 
+                                    | Designed by <a class="text-light" href="https://github.io.com" target="_blank">Tobylobah</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                </footer>
+     </body>
+     </html>
